@@ -1,0 +1,308 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>搜索 &mdash; openSUSE 安全指南 0.9 文档</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="author" title="关于这些文档"
+              href="about.html"/>
+    <link rel="top" title="openSUSE 安全指南 0.9 文档" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+
+        
+          <a href="index.html" class="icon icon-home"> openSUSE 安全指南
+        
+
+        
+        </a>
+
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="#" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+        
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+          
+          
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="about.html">关于手册</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="about.html#id2">可用文档</a></li>
+<li class="toctree-l2"><a class="reference internal" href="about.html#id3">问题反馈</a></li>
+<li class="toctree-l2"><a class="reference internal" href="about.html#id4">文档规范</a></li>
+<li class="toctree-l2"><a class="reference internal" href="about.html#id5">手册生成</a></li>
+<li class="toctree-l2"><a class="reference internal" href="about.html#id6">源码</a></li>
+<li class="toctree-l2"><a class="reference internal" href="about.html#id7">致谢</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="part1.html">第一部分：认证</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapter1.html">第一章：安全和保密</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chapter1.html#id2">本地安全和网络安全</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="chapter1.html#id3">本地安全</a></li>
+<li class="toctree-l4"><a class="reference internal" href="chapter1.html#id4">网络安全</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="chapter1.html#id5">常规安全提示和技巧</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter1.html#id6">使用集中安全报告地址</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chapter2.html">第二章：使用 PAM 认证</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chapter2.html#id1">什么是 PAM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter2.html#id2">PAM 配置文件结构</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter2.html#pam-sshd">PAM 的 sshd 配置</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter2.html#id3">PAM 模块配置</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter2.html#pam-config-pam">使用 pam-config 配置 PAM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter2.html#id4">手动配置 PAM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter2.html#id5">更多信息</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chapter3.html">第三章：使用 NIS</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chapter3.html#id1">配置 NIS 服务器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter3.html#id2">配置 NIS 客户端</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chapter4.html">第四章：LDAP - 目录服务</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chapter4.html#ldap-nis">LDAP 与 NIS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter4.html#id1">LDAP 目录结构</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter4.html#yast-ldap">使用 YaST 配置 LDAP 服务器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter4.html#id2">使用 YaST 配置 LDAP 客户端</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter4.html#id3">使用 YaST 配置 LDAP 用户和用户组</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter4.html#id4">浏览 LDAP 目录树</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter4.html#id5">手动配置 LDAP 服务器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter4.html#id6">手动管理 LDAP 数据</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter4.html#id7">更多 LDAP 信息</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chapter5.html">第五章：活动目录支持</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chapter5.html#linux-ad">集成 Linux 和 AD 环境</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter5.html#id2">Linux AD 支持背景</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter5.html#linux">配置活动目录的 Linux 客户端</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter5.html#ad">登陆到 AD 域</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="chapter5.html#gdm-kdm">GDM 和 KDM</a></li>
+<li class="toctree-l4"><a class="reference internal" href="chapter5.html#id3">控制台登陆</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="chapter5.html#id4">修改密码</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chapter6.html">第六章：基于 Kerberos 的网络认证</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chapter6.html#id1">Kerberos 术语</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter6.html#id2">Kerberos 如何运行</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter6.html#id3">Kerberos 的用户视角</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter6.html#id4">Kerberos 安装和管理</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter6.html#id5">Kerberos 更多信息</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chapter7.html">第七章：使用指纹阅读器</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chapter7.html#id2">主持的应用和动作</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter7.html#yast">使用 YaST 管理指纹</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="part2.html">第二部分：本地安全</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapter8.html">第八章：使用 YaST 配置安全设置</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chapter8.html#id1">安全概览</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter8.html#id2">预定义安全配置</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter8.html#id3">密码配置</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter8.html#id4">引导设置</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter8.html#id5">登陆设置</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter8.html#id6">用户添加</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chapter8.html#id7">杂项设置</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="part3.html">第三部分：网络安全</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="part4.html">第四部分：基于 AppArmor 的权限限制</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapter16.html">第十六章：AppArmor 介绍</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="chapter16.html#id1">AppArmor背景信息</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="appendix_a.html">附录 A: GNU 授权协议</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="appendix_a.html#gnu">GNU 通用公共许可协议</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="appendix_a.html#id1">引言</a></li>
+<li class="toctree-l3"><a class="reference internal" href="appendix_a.html#id2">关于复制、分发和修改的术语和条件</a></li>
+<li class="toctree-l3"><a class="reference internal" href="appendix_a.html#id3">不提供品质担保</a></li>
+<li class="toctree-l3"><a class="reference internal" href="appendix_a.html#id4">如何将上述条款应用到你的新程序</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="appendix_a.html#id5">GNU 自由文档协议</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="appendix_a.html#id6">大量复制</a></li>
+<li class="toctree-l3"><a class="reference internal" href="appendix_a.html#id7">修改</a></li>
+<li class="toctree-l3"><a class="reference internal" href="appendix_a.html#id8">合并文档</a></li>
+<li class="toctree-l3"><a class="reference internal" href="appendix_a.html#id9">文档合集</a></li>
+<li class="toctree-l3"><a class="reference internal" href="appendix_a.html#id10">独立著作聚集</a></li>
+<li class="toctree-l3"><a class="reference internal" href="appendix_a.html#id11">翻译</a></li>
+<li class="toctree-l3"><a class="reference internal" href="appendix_a.html#id12">终止协议</a></li>
+<li class="toctree-l3"><a class="reference internal" href="appendix_a.html#id13">协议将来的修订</a></li>
+<li class="toctree-l3"><a class="reference internal" href="appendix_a.html#id14">如何为你的文档使用本协议</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">openSUSE 安全指南</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li></li>
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document">
+            
+  <noscript>
+  <div id="fallback" class="admonition warning">
+    <p class="last">
+      Please activate JavaScript to enable the search
+      functionality.
+    </p>
+  </div>
+  </noscript>
+
+  
+  <div id="search-results">
+  
+  </div>
+
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; 版权所有 2015, SUSE LLC 及贡献者.
+      最后更新于 Jun 03, 2017.
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.9',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/translations.js"></script>
+      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script type="text/javascript" src="_static/searchtools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+  
+  <script type="text/javascript">
+    jQuery(function() { Search.loadIndex("searchindex.js"); });
+  </script>
+  
+  <script type="text/javascript" id="searchindexloader"></script>
+   
+
+
+</body>
+</html>
